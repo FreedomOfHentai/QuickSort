@@ -1,12 +1,12 @@
-package com.company;
+package com.company.first;
 
-public class ArrayIns {
+public class FirstArrayIns {
 
     private long[] theArray;
     private int nElems;
 
     // constructor and create array
-    public ArrayIns(int max) {
+    public FirstArrayIns(int max) {
         theArray = new long[max];
         nElems = 0;
     }
